@@ -1,0 +1,89 @@
+public abstract class product {
+    private chat communication;
+    private String title;
+    private String description;
+    private String location;
+    private String condition;
+    private String product_id;
+    private String price;
+    private String dateOfPublish;
+
+//    public void remove(){}
+
+    public product(){}
+
+    public chat getCommunication() {
+        return communication;
+    }
+
+    public void setCommunication(chat communication) {
+        this.communication = communication;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getCondition() {
+        return condition;
+    }
+
+    public void setCondition(String condition) {
+        this.condition = condition;
+    }
+
+    public String getProduct_id() {
+        return product_id;
+    }
+
+    public void setProduct_id(String product_id) {
+        this.product_id = product_id;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public String getDateOfPublish() {
+        return dateOfPublish;
+    }
+
+    public void setDateOfPublish(String dateOfPublish) {
+        this.dateOfPublish = dateOfPublish;
+    }
+
+    public product(chat communication, String title, String description, String location, String condition, String product_id, String price, String dateOfPublish) {
+        this.communication = communication;
+        this.title = title;
+        this.description = description;
+        this.location = location;
+        this.condition = condition;
+        this.product_id = product_id;
+        this.price = price;
+        this.dateOfPublish = dateOfPublish;
+    }
+}
